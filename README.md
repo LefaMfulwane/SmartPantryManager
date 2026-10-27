@@ -59,9 +59,12 @@ The application automatically seeds the following 5 recipes on initial database 
 
 ## 📲 How to Run the Project
 
+
 1. **Clone the Repository:**
    ```bash
    git clone [https://github.com/LefaMfulwane/SmartPantryManager.git](https://github.com/LefaMfulwane/SmartPantryManager.git)
+
+   
 ## 📷 Application Screenshots
 
 | Pantry Stock List | Add Item | Suggested Recipes |
