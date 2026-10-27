@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:gravity="center"
+    android:background="#E8F5E9">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Smart Pantry Manager"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="#5D4037"
+        android:gravity="center"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Keep track of your ingredients and discover what you can cook."
+        android:textSize="14sp"
+        android:textColor="#4E342E"
+        android:gravity="center"
+        android:paddingBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your Pantry"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#5D4037"
+        android:gravity="center"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Your saved ingredients will appear here."
+        android:textSize="13sp"
+        android:textColor="#4E342E"
+        android:gravity="center"
+        android:paddingBottom="24dp" />
+
+    <!-- Navigation Hub Buttons -->
+    <Button
+        android:id="@+id/btnViewPantry"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="View My Pantry"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#2E7D32"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnAddIngredient"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Add Ingredient"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#2E7D32"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnFindRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Find Matching Recipes"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#2E7D32"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp" />
+
+    <Button
+        android:id="@+id/btnSettings"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Settings"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#2E7D32"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipes are suggested only when you have every required ingredient in sufficient quantities."
+        android:textSize="12sp"
+        android:textColor="#4E342E"
+        android:gravity="center" />
+
+</LinearLayout>

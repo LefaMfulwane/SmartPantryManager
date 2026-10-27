@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E8F5E9"
+    android:padding="16dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="My Pantry"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#5D4037"
+        android:gravity="center"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manage the ingredients you have available."
+        android:textSize="13sp"
+        android:textColor="#4E342E"
+        android:gravity="center"
+        android:paddingBottom="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewPantry"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:clipToPadding="false"
+        android:paddingBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnBackHomePantry"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Back to Home"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#2E7D32"
+        android:textColor="@android:color/white"
+        android:layout_marginBottom="12dp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fabAddPantry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:layout_margin="8dp"
+        android:contentDescription="Add Pantry Item"
+        app:tint="@android:color/white"
+        android:backgroundTint="#2E7D32"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</LinearLayout>

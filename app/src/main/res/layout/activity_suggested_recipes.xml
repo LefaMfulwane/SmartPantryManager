@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#E8F5E9"
+    android:padding="20dp"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Suggested Recipes"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="#5D4037"
+        android:gravity="center"
+        android:paddingBottom="4dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recipes you can make using the ingredients in your pantry."
+        android:textSize="13sp"
+        android:textColor="#4E342E"
+        android:gravity="center"
+        android:paddingBottom="20dp" />
+
+    <TextView
+        android:id="@+id/tvEmptyState"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="No recipes match your pantry yet - add more ingredients."
+        android:textSize="15sp"
+        android:textColor="#C62828"
+        android:visibility="gone"
+        android:paddingTop="32dp"
+        android:gravity="center" />
+
+    <ListView
+        android:id="@+id/listViewRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="12dp"
+        android:paddingBottom="12dp" />
+
+    <!-- Back to Home Button -->
+    <Button
+        android:id="@+id/btnBackHomeRecipes"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Back to Home"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:backgroundTint="#2E7D32"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>
